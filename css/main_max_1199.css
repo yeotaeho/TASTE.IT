@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+
+
+ 
+
+
+@media (max-width:1199px) {
+                /*slider*/
+                #slider {width:100%; height:100vh; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../main_img/bg_2.jpg.webp") fixed; background-position:center; background-size: cover; display: flex; justify-content: center; align-content: center; flex-flow:column wrap; } 
+                #slider > h1 {font-size:105px; color: #fff; padding: 10px 0px 30px 0px; line-height: 190px; }
+                #slider > h3 {color: #fff; font-size: 16px; width: 400px; height: 34px; border: 1px solid #fff; text-align: center; padding: 9px 0px 0px 10px; box-sizing: border-box; letter-spacing:10px; margin:0 auto; }
+                #slider > h5 {color: #fff; margin:0 auto; color: #e52b34; letter-spacing:10px;}
+                #slider > h5 > span {font-size:14px; letter-spacing:0;}
+                
+                /*container*/
+                #container {width:100%; height:auto;}
+                
+                
+                /*section*/
+                #section {width: 100%; height:650px;}
+                #section > #sectionbox {width:860px; height:650px; background-color: rgb(116, 61, 61); margin:0 auto; display:flex; justify-content: space-between;}
+                #section > #sectionbox > .box1 {width:240px; height: 650px; background-color: #e52b34; box-sizing: border-box; padding:20px 40px; display: flex; flex-flow:column wrap; }
+                #section > #sectionbox > .box1 > h3 {margin:15px 0px 20px 0px; color: #fff; font-size: 22px;}
+                input[type="text"],input[type="combobox"],[type="month"],[type="time"] {width:160px; height: 50px; margin:0px 0px 25px 0px; background-color: #e52b34; border: 0.5px solid #a8a8a8; color:#fff; border-radius: 3px; box-sizing: border-box; padding:10px;}
+                ::placeholder {color:#fff;}
+                
+                
+                #section > #sectionbox > .box1 > a > button {width:160px; height: 65px; border-radius: 5px; border:none; font-size: 15px;}
+                #section > #sectionbox > .box1 > a > button:hover {color: #e52b34; transition: 0.2s ease; cursor: pointer;}
+                
+                
+                #section > #sectionbox > .box2 {width:620px; height: 650px; background-image:url("../main_img/about.jpg.webp"); background-position:80% 100%; background-size: cover; background-repeat: no-repeat; float:right;} 
+                #section > #sectionbox > .box2 > .textbox1 {width:620px; height:650px; float: right; display: flex; align-items: center; }
+                #section > #sectionbox > .box2 > .textbox1 > .text1 {width: 45%; height:540px; display: flex; flex-direction: column; justify-content: space-evenly; margin:0px 0px 0px 50px;}
+                #section > #sectionbox > .box2 > .textbox1 > .text1 > h3 > span {color: #e52b34; font-size: 37px; height:20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+                #section > #sectionbox > .box2 > .textbox1 > .text1 > h3 {font-size: 35px;}
+                #section > #sectionbox > .box2 > .textbox1 > .text1 > p {line-height: 25px; font-size:15px; color: #808080;}
+                
+                
+                
+                
+                
+                /*imgbox1*/
+                .imgbox1 {width:100%; height: 400px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../main_img/bg_3.jpg.webp") fixed; 
+                background-position: center; background-size: cover; display:flex; flex-flow:column wrap; justify-content: center; align-items: center;}
+                .imgbox1 > h3 {color: #fff; letter-spacing: 15px; margin:0px 0px 0px 0px;}
+                .imgbox1 > h2 {color: #fff; padding:20px 0px 10px 0px;}
+                
+                
+                /*menu*/
+                #menubox {width:100%; height: 2556px; padding: 128px 0px; box-sizing: border-box;} 
+                #menubox > .menu {width: 900px; height: 1700px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:space-evenly; padding:20px; box-sizing: border-box; }
+                #menubox > .menutext > span {display: block; margin: 0px 0px 0px; font-family:'Times New Roman', Times, serif; color: #eb5860;}
+                #menubox > .menutext > h2,span {text-align: center; font-size:40px;}
+                #menubox > .menu > .menu1 {width: 350px; height: 700px; background-color:#f5f5f5; margin:10px; padding: 45px 10px 5px 10px; box-sizing: border-box; display: flex; flex-flow:row wrap; justify-content: center; outline:1px dashed #ccc;}
+                #menubox > .menu > .menu1:hover {outline:1px dashed #e52b34; transition: 0.5s ease;}
+                #menubox > .menu > .menu1 > h3 {font-size:22px;}
+                #menubox > .menu > .menu1 > ul > li {width:240px; height: 170px; margin:25px 0px 20px 0px; padding:20px 0 0 0; box-sizing: border-box; border-top: 1px dashed #ccc;}
+                #menubox > .menu > .menu1 > ul > li:hover {border-top: 1px dashed #e52b34; transition: 0.5s ease;}
+                #menubox > .menu > .menu1 > ul > li > .text2 {width: 160px; height: 149px; box-sizing: border-box; padding: 0px 0px 0px 15px;
+                float: right; display: flex; flex-direction: column;justify-content: space-evenly;}
+                #menubox > .menu > .menu1 > ul > li > .text2 > h3:after {content:"$29"; color:#e52b34; margin:-34px 0px 0px 0px; float: right; font-size: 20px;}
+                #menubox > .menu > .menu1 > ul > li > img {width:80px; height:80px; border-radius: 50px;}
+                
+                
+                /*imgbox2*/
+                .imgbox2 {width:100%; height: 670px; 
+                background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../main_img/bg_5.jpg.webp") fixed;
+                background-position: center; background-size: cover; display: flex; flex-flow:column wrap; justify-content: space-around; align-items: center;}
+                .imgbox2 > h2 {color: #fff; margin:-80px 0px 0px 0px;}
+                .imgbox2 > h3 {color: #fff;}
+                .imgbox2 > img {width: 80px; height: 80px; border-radius: 40px;}
+                .imgbox2 > .aa {margin:50px 0px 0px 0px; color: #e52b34; font-size:40px; font-family:'Times New Roman', Times, serif;}
+                .imgbox2 > .dd {margin:-40px 0px 0px 0px;}
+                .imgbox2 > .f {color: #fff; font-size:20px; width:500px; text-align: center; line-height: 25px; margin:30px 0px 0px 0px;}
+                .imgbox2 > .ff {margin:-50px 0px 0px 0px; color: #ccc;}
+                .imgbox2 > ul > li {float: left; margin:0px 0px 0px 0px;}
+                
+        
+        
+        
+                /*chef*/
+                #chef {width:100%; height:2100px; background-color: #fafafa; padding:128px 0 0px 0px; box-sizing: border-box; }
+                
+                #chef > .cheftext {width: 600px; height: 100px; margin:0 auto; padding: 30px;}
+                #chef > .cheftext > span {display: block; margin: 0px 0px 0px; font-family:'Times New Roman', Times, serif; color: #eb5860;}
+                #chef > .cheftext > span,h2 {text-align: center; font-size:40px;}
+                #chef > .chefbox {width: 900px; height: 1750px;  margin:0 auto; padding:20px 0px 20px 0px; box-sizing: border-box; display: flex; flex-flow:row wrap;}
+                
+                
+                #chef > .chefbox > .chefbox1 {width: 400px; height: 681px; background-color: #fff; float: left; margin:0px 20px 0px 20px; position: relative; z-index: 2;}   
+                #chef > .chefbox > .chefbox1 > .chefimg1 {width: 100%; height: 60%; background-image: url("../main_img/chef-1.jpg"); background-position:center; background-size:cover;}
+                #chef > .chefbox > .chefbox1 > .chefimg1 > .ss {width:100%; height:100%; background-color: #00000066; opacity: 0; display: flex; justify-content: center; align-items: center;}
+                #chef > .chefbox > .chefbox1 > .chefimg2 > .ss {width:100%; height:100%; background-color: #00000066; opacity: 0; display: flex; justify-content: center; align-items: center;}
+                #chef > .chefbox > .chefbox1 > .chefimg3 > .ss {width:100%; height:100%; background-color: #00000066; opacity: 0; display: flex; justify-content: center; align-items: center;}
+                #chef > .chefbox > .chefbox1 > .chefimg4 > .ss {width:100%; height:100%; background-color: #00000066; opacity: 0; display: flex; justify-content: center; align-items: center;}
+                
+                
+                #chef > .chefbox > .chefbox1 > .chefimg1 > .ss > a > img {width: 25px; height: 25px; margin: 15px;}
+                #chef > .chefbox > .chefbox1 > .chefimg2 > .ss > a > img {width: 25px; height: 25px; margin: 15px;}
+                #chef > .chefbox > .chefbox1 > .chefimg3 > .ss > a > img {width: 25px; height: 25px; margin: 15px;}
+                #chef > .chefbox > .chefbox1 > .chefimg4 > .ss > a > img {width: 25px; height: 25px; margin: 15px;}
+                
+                
+                #chef > .chefbox > .chefbox1 > .chefimg1 > .ss:hover {opacity:1; transition: 0.3s ease; }
+                #chef > .chefbox > .chefbox1 > .chefimg2 > .ss:hover {opacity:1; transition: 0.3s ease; }
+                #chef > .chefbox > .chefbox1 > .chefimg3 > .ss:hover {opacity:1; transition: 0.3s ease; }
+                #chef > .chefbox > .chefbox1 > .chefimg4 > .ss:hover {opacity:1; transition: 0.3s ease; }
+                
+                
+                #chef > .chefbox > .chefbox1 > .chefimg2 {width: 100%; height: 60%; background-image: url("../main_img/chef-2.jpg.webp"); background-position:center; background-size:cover;}
+                #chef > .chefbox > .chefbox1 > .chefimg3 {width: 100%; height: 60%; background-image: url("../main_img/chef-3.jpg.webp"); background-position:center; background-size:cover;}
+                #chef > .chefbox > .chefbox1 > .chefimg4 {width: 100%; height: 60%; background-image: url("../main_img/chef-4.jpg"); background-position:center; background-size:cover;}
+                #chef > .chefbox > .chefbox1 > .text3 {width:400px; height:40%; padding: 8px 24px ; box-sizing: border-box;
+                display: flex; flex-flow:column wrap; justify-content: space-around;}
+                #chef > .chefbox > .chefbox1 > .text3 > h3  {font-size: 18px;}
+                #chef > .chefbox > .chefbox1 > .text3 > .b {line-height:140%; color: #8b8b8b; font-size: 16px;}
+                #chef > .chefbox > .chefbox1 > .text3 > .a {margin: -20px 0px 0px 0px; font-size: 14px; color: #ccc;}
+                
+                
+                /*perfact*/
+                #perfact {width:100%; height: 490px; }
+                #perfact > .perfactbox {width:870px; height:490px; margin:0 auto; display: flex;}
+                #perfact > .perfactbox > .imgbox3,.imgbox4 {width:160px; height:100%; margin:0px 10px 0px 0px;}
+                #perfact > .perfactbox > .imgbox3 {background-image: url("../main_img/bg_6.jpg.webp"); background-position: center; background-size: cover;}
+                #perfact > .perfactbox > .imgbox4 {background-image: url("../main_img/bg_4.jpg.webp"); background-position: center; background-size: cover;}
+                #perfact > .perfactbox > .perfacttext {width:510px; height: 100%; box-sizing: border-box; padding:58px 48px; 
+                display: flex; flex-flow:column wrap;}
+                #perfact > .perfactbox > .perfacttext > h3,h4 {font-size: 40px;}
+                #perfact > .perfactbox > .perfacttext > h4 {color: #eb5860; font-family:'Times New Roman', Times, serif;}
+                #perfact > .perfactbox > .perfacttext > h3 {margin:0px 0px 50px 0px; color: #000;}
+                #perfact > .perfactbox > .perfacttext > p {line-height: 30px; color: #808080;}
+                #perfact > .perfactbox > .perfacttext > button {border: none; background-color: #e52b34; color: #fff; width: 100px; height: 39px; margin:40px 0px 0px 0px; border-radius: 3px;}
+                #perfact > .perfactbox > .perfacttext > button:hover {background-color: #fff; color: #e52b34; border: 1px solid #e52b34; transition: 0.3s ease;}
+                
+                
+                
+                /*blog*/
+                #blog {width:100%; height: 1000px; background-color: #fafafa; padding:40px 0 0 0;}
+                #blog > .blogtext {width: 560px; height: 100px; margin:0 auto; padding: 30px;}
+                #blog > .blogtext > span {display: block; margin: 30px 0px 0px; font-family:'Times New Roman', Times, serif; color: #eb5860;}
+                #blog > .blogtext > span,h2 {text-align: center; font-size:40px;}
+                #blog > .blogbox > .box3 {width: 210px; height: 630px; background-color: #f0f0f0; margin:0px 30px 0px 30px; border-radius: 5px;}
+                #blog > .blogbox > .box3:hover {background-color: #e52b34; transition: 0.5s ease;}
+                #blog > .blogbox {width: 900px; height:auto; margin:0 auto; padding:20px 0px 20px 0px; display: flex; justify-content: space-between; box-sizing: border-box;} 
+                #blog > .blogbox > .box3 > .blogbox1 {width: 250px; height: 621px; background-color:#fff;  margin:0px 0px 0px -21px;}
+                #blog > .blogbox > .box3 > .blogbox1 > .imgbox5 {width:100%; height: 50%; background-image: url("../main_img/image_1.jpg.webp");
+                background-position: center; background-size: cover;}
+                #blog > .blogbox > .box3 > .blogbox1 > .imgbox6 {width:100%; height: 50%; background-image: url("../main_img/image_2.jpg.webp");
+                background-position: center; background-size: cover;}
+                #blog > .blogbox > .box3 > .blogbox1 > .imgbox7 {width:100%; height: 50%; background-image: url("../main_img/image_3.jpg.webp");
+                background-position: center; background-size: cover;}
+                #blog > .blogbox > .box3 > .blogbox1 > .text4 {display: flex; flex-flow:column wrap; box-sizing: border-box; padding: 30px;}
+                #blog > .blogbox > .box3 > .blogbox1 > .text4 > p {font-size: 14px; color: #000; margin:0px 0px 20px 0px;}
+                #blog > .blogbox > .box3 > .blogbox1 > .text4 > h3 > a {font-size: 20px; color: #000; line-height: 30px;}
+                #blog > .blogbox > .box3 > .blogbox1 > .text4 > button {background-color: #e52b34; color: #fff; width: 110px; height: 43px; border: none; margin:40px 0px 0px 0px; font-size: 16px; border-radius: 3px;}
+                #blog > .blogbox > .box3 > .blogbox1 > .text4 > button:hover {background-color: #fff; border: 1px solid #e52b34; color: #e52b34; transition: 0.5s ease;}
+                
+                
+                
+                
+                #redbox {width: 100%; height: 250px; background-color: #e52b34; display: flex; flex-flow:column wrap; justify-content: center; align-content: center;} 
+                #redbox > h2 {color: #fff; margin:0px 0px 30px 0px;}
+                #redbox > button {width: 170px; height: 40px; background-color: #e52b34; border: 1px solid #fff; color: #fff; margin:0 auto; font-size: 16px; border-radius:3px;}
+                #redbox > button:hover {background-color: #fff; color: #e52b34; transition: 0.3s ease;}
+                }

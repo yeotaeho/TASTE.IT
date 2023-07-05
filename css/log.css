@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+
+#sss {width: 1000px; height: auto; margin:0 auto; display: flex; justify-content: center;padding-bottom: 30px;}
+
+
+
+ul.tabs { float: left; height: 60px; border-bottom: 1px solid #eee; border-left: 1px solid #eee; width: 1000px; margin:0px 0px 70px 0px; display: flex;}
+ul.tabs li { float: left; text-align:center; cursor: pointer; width:385px; height: 60px; line-height: 31px; border: 1px solid #eee; border-left: none; font-weight: bold; background: #fafafa; overflow: hidden; position: relative;}
+ul.tabs li.active { background: #FFFFFF; border-bottom: 1px solid #FFFFFF; }
+.tab_container { border-top: none; clear: both; float: left; width: 1000px; background: #FFFFFF; height:auto;}
+.tab_content { font-size: 12px; display: none;}
+
+
+#tab1 > ul {width: 100%; height: 50px; display: flex; justify-content: space-between; margin-top: 30px;}
+#tab1 > ul > li { width: 320px; background-color: #eee; border-left:1px solid #ccc; border-right:1px solid #ccc; display: flex; justify-content: center; align-items: center; font-size: 16px;}
+#tab1 > ul > li:hover {background-color: #f0858b; transition: 0.3s; cursor: pointer;}
+
+#tab1 > form {width:100%; height: 32px; display: flex; justify-content: flex-end;}
+#tab1 > form > input {width:260px; height: 28px;}
+#tab1 > form > select {width:152px; height: 32px; margin-right:10px;}
+
+
+#tab1 > #tab1_container {width: 100%; height: 800px;} 
+#tab1 > #tab1_container > .leftbox {width: 55%; height: 100%; float: left; padding:0px 30px; box-sizing: border-box;}
+#tab1 > #tab1_container > .rightbox {width: 44.5%; height: 100%; float:right; border-left:1px solid #ccc;}
+
+
+#tab1 > #tab1_container > .leftbox > ul > li {width:100%; height: 120px; border-top: 1px dashed #ccc; padding: 37px 0px; box-sizing: border-box;}
+
+
+#tab1 > #tab1_container > .rightbox > img {width: 100%; height: 55%;}
+#tab1 > #tab1_container > .rightbox > .textbx {width: 100%; height: 45%; padding: 20px 0px; box-sizing: border-box;}
+#tab1 > #tab1_container > .rightbox > .textbx > .textb1 {width: 100%; height:110px; padding:20px 10px; box-sizing: border-box;}
+#tab1 > #tab1_container > .rightbox > .textbx > .textb1 > h3 {font-size: 18px; margin-bottom:10px;}
+#tab1 > #tab1_container > .rightbox > .textbx > .textb1 > p {display: inline;}
+#tab1 > #tab1_container > .rightbox > .textbx > .textb1 > button {float:right; margin-top:-20px; background-color: #d74950; border: none; color: #FFFFFF;width: 130px; height: 40px;}
+#tab1 > #tab1_container > .rightbox > .textbx > .textb2 {width:100%; height: 180px; padding:10px; box-sizing: border-box;}
+
+
+
+
+dl,dt,dd{ margin:0; padding:0;}
+.accordion{ width:100%;}
+.accordion dt{cursor: pointer; color:#000000;  height:50px; line-height:50px; text-indent:20px; font-size:14px; margin-bottom:3px;}
+
+.accordion dd{ padding: 30px 20px; height:300px; display: flex; flex-flow:row wrap;}
+.accordion dd > .aw {width: 13%; height: 100%; font-size:80px; padding-left:30px; box-sizing: border-box; border-right: 1px solid #ccc;}
+.accordion dd > .w {font-size: 14px; margin-left: 20px; line-height: 20px;}
+
+
+.accordion > dl > dt {height: 160px; display: flex; flex-flow:row wrap; align-items: center; padding:25px 0px; box-sizing: border-box; border-top:1px solid #ccc;}
+.accordion > dl > dt > span {width: 140px; height: 110px; font-size:70px; display: flex; align-items: center; justify-content: center; border-right:1px solid #ccc;}
+
+.accordion > dl > dt > p {display: flex; flex-flow: column wrap; color: #afafaf;}
+.accordion > dl > dt > p > span {margin:-20px 0px 0px 0px; color: #424242; font-size:18px;}
+
+
+#tab3 > form {width: 1000px; height: 222px; display: flex; align-items: center; justify-content: space-between; padding: 25px; box-sizing: border-box; border-top: 2px solid #666; border-bottom: 2px solid #ccc;} 
+#tab3 > form > .formbox1 {width: 470px; height: 160px; display: flex; flex-flow: column wrap; justify-content: space-between; padding-right:30px; box-sizing: border-box; border-right:1px dashed #ccc;;}
+
+#tab3 > form > .formbox1 > li {display: flex; }
+#tab3 > form > .formbox1 > li > p {margin-top:12px;}
+#tab3 > form > .formbox1 > li > label {width: 100px; display: flex; align-items: center;}
+#tab3 > form > .formbox1 > li > input {height: 35px; width: 320px;}
+#tab3 > form > .formbox1 > li:nth-of-type(2) input,select {width:101px;} 
+
+#tab3 > form > .formbox2 {width:432px; height: 160px; display: flex; flex-flow: column wrap; justify-content: space-between;}
+#tab3 > form > .formbox2 > li {display: flex;}
+#tab3 > form > .formbox2 > li > label {width: 100px; display: flex; align-items: center;}
+#tab3 > form > .formbox2 > li > select {height: 40px;}
+#tab3 > form > .formbox2 > li:nth-of-type(1) select {width:301px;}
+#tab3 > form > .formbox2 > li:nth-of-type(2) select {width:145px; margin-right:10px; } 
+#tab3 > form > .formbox2 > li:nth-of-type(3) select {width:96.5px; margin-right:5px;} 
+
+
+#tab3 > .a {width:100%; height: 370px;}
+#tab3 > .a > form {background-color: #ccc; display: flex; flex-flow:column wrap; }
+#tab3 > .a > form > textarea {height:300px; margin-top: 15px; padding: 15px; box-sizing: border-box;}
+#tab3 > .a > form > input {height: 40px; padding: 0px 15px; box-sizing: border-box;}
+
+
+
+#tab3 > #terms {width: 100%; height: 156px; overflow: auto; border: 1px solid #afafaf; background-color: #fafafa;}
+
+#tab3 > .ag {width: 100%; background-color: aliceblue; display: flex; flex-flow:row wrap; justify-content: flex-end; margin-top:15px;}
+
+#tab3 > .ebox {width:100%; height: 75px; border-top: 2px solid #666; margin-top:50px; padding-top: 33px; box-sizing: border-box;text-align: center;}
+#tab3 > .ebox > a > button {width: 160px; height:40px; background-color:#e52b34; color: #FFFFFF; border: none; cursor: pointer;}
+
+
+.tab_container .tab_content ul { width:100%; margin:0px; padding:0px;}
+.tab_container .tab_content ul li { padding:5px; list-style:none;}
+#container {width: 1160px; margin: 0 auto;}

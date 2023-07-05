@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+
+@media (max-width:999px) {
+/*헤더*/
+header {width:100%; height:auto;  position: absolute;}
+header > #box {width:100%; height:50px; margin:0 auto; display:flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box;}
+header > #box > p > span {font-size: 13px; color:#fff;}
+header > #box > p {font-size: 14px; color: #ccc;}
+header > #box > ul {display: flex;}
+header > #box > ul > li {font-size: 14px; margin:0px 10px 0px 0px; color: #ccc;}
+header > #box > ul > li > a > i {width:12px; height:12px; color:#fff;}
+nav {width:100%; height:80px; background-color: #00000066; margin:0 auto; border-radius: 2px; display: flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box; opacity:0.9;}
+nav ul {display: flex; flex-flow:column wrap; align-items: center;}
+.small {width: 100%; height: auto; display: flex; flex-flow:column wrap; background-color: #00000066; opacity:0.9;}
+.small > ul > li {line-height: 35px;}
+.small > ul > .a > a {color: #e52b34;}
+.small > ul > li > a {color: #fff; width: 100%; line-height: 35px; display: block; padding:0px 0px 0px 20px;}
+.small > ul > li > a:hover {color: #e52b34;  transition: 0.2s ease; background-color: #00000066; display: block;}
+.small > .a {color: #e52b34;}
+nav > a > h3 {color: #e52b34; font-size:20px; opacity:1;}
+nav > a > h3 > span {font-size: 20px; color: #fff; }
+nav ul {color: #fff; opacity:1.0;}
+nav ul > li > a {margin:0px 0px 0px 50px; color:#fff; opacity:1.0; font-size: 13px;}
+nav ul > li > a:hover {color: #e52b34; transition: 0.2s ease;}
+nav ul > .a > a {color: #e52b34;}
+nav ul {display: none;}
+nav > .asd {color: #666;}
+nav > .asd:hover {cursor: pointer;}
+}

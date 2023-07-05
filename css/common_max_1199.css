@@ -1,0 +1,50 @@
+@charset "utf-8";       
+
+
+
+@media (max-width:1199px) {
+       /*footer*/
+       footer {width:100%; height:500px; background-color: #1a1a1a; margin:0 auto;}
+       footer > .end {width:900px; height: 85%; background-color: #1a1a1a; margin:0 auto; display: flex; justify-content:space-evenly; align-items: center; padding: 30px 0px 0px 0px; box-sizing: border-box;}
+       footer > .end > .box4,.box5,.box6,.box7 { width: 24.6%; height: 350px;}
+       footer > .end > .box4,.box5,.box7 {display: flex; flex-flow:column wrap;}
+
+
+       footer > .end > .box4 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+       footer > .end > .box4 > p {line-height: 25px; color: #ccc;}
+       footer > .end > .box5 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+       footer > .end > .box6 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+       footer > .end > .box7 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+       footer > .end > .box7 > p {line-height: 25px; color: #ccc; margin: 0px 0px 23px;}
+       footer > .end > .box7 > .btn1 {width: 240px; height: 56px; background-color: #363636; border:none; border-radius: 3px; margin: 0 0 10px; color:#ccc; font-size: 18px;}
+       footer > .end > .box7 > .btn2 {width: 240px; height: 56px; background-color:#e52b34; border:none; border-radius: 3px; color:#fff; font-size: 18px;}
+
+
+       footer > .end > .box5 > table { margin:0px 0px 0px 0px;}
+       footer > .end > .box5 > table th { line-height: 30px; float: left; color: #ccc;}
+       footer > .end > .box5 > table td { float:right; line-height: 30px; color: #ccc;}
+
+       footer > .end > .box4 > ul > li {width: 40px; height: 40px; background-color: #e52b34; float: left; margin: 40px 7px 0px 0px; border-radius: 40px; display: flex; justify-content: center; align-items: center;}
+       footer > .end > .box4 > ul > li > a > i { color: #fff;}
+
+       footer > .end > .box6 > .back1,.back2,.back3 {width:70px; height: 110px; float: left; margin:0px 0px 0px 0px;}
+       footer > .end > .box6 >.back4,.back5,.back6 {width:70px; height: 110px; float: left;}
+
+       footer > .end > .box6 > .back1 {background-image: url("../common_img/insta-1.jpg.webp"); background-position:center;
+       background-size: cover;}
+       footer > .end > .box6 > .back2 {background-image: url("../common_img/insta-2.jpg.webp"); background-position:center;
+       background-size: cover;}
+       footer > .end > .box6 > .back3 {background-image: url("../common_img/insta-3.jpg.webp"); background-position:center;
+       background-size: cover;}
+       footer > .end > .box6 > .back4 {background-image: url("../common_img/insta-4.jpg.webp"); background-position:center;
+       background-size: cover;}
+       footer > .end > .box6 > .back5 {background-image: url("../common_img/insta-5.jpg.webp"); background-position:center;
+       background-size: cover;}
+       footer > .end > .box6 > .back6 {background-image: url("../common_img/insta-6.jpg.webp"); background-position:center;
+       background-size: cover;}
+       
+
+
+       footer > .end2 {width:100%; height: 15%; background-color: #e52b34; display: flex; justify-content: center; align-items: center;}
+       footer > .end2 > p {color: #fff;}
+       }

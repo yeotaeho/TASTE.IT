@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+@media (min-width:1150px) {
+/*헤더*/
+header {width:100%; height:auto;  position: absolute;}
+header > #box {width:70%; height:50px; margin:0 auto; display:flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box;}
+header > #box > p > span {font-size: 13px; color:#fff;}
+header > #box > p {font-size: 14px; color: #ccc;}
+header > #box > ul {display: flex;}
+header > #box > ul > li {font-size: 14px; margin:0px 10px 0px 0px; color: #ccc;}
+header > #box > ul > li > a > i {width:12px; height:12px; color:#fff;}
+nav {width:70%; height:80px; background-color: #00000066; margin:0 auto; border-radius: 2px; display: flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box; opacity:0.9;}
+nav ul {display: flex; align-items: center;}
+nav > a > h3 {color: #e52b34; font-size:20px; opacity:1;}
+nav > a > h3 > span {font-size: 20px; color: #fff; }
+nav ul {color: #fff; opacity:1.0;}
+nav ul > li > a {margin:0px 0px 0px 35px; color:#fff; opacity:1.0; font-size: 13px;}
+nav ul > li > a:hover {color: #e52b34; transition: 0.2s ease;}
+nav ul > .a > a {color: #e52b34;}
+nav > .asd {display: none;}
+.small {display: none;}
+}
